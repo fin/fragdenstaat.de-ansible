@@ -17,6 +17,7 @@ static_server_name: static.frag-den-staat.dev
 db_user: "{{ application_name }}"
 db_name: "{{ application_name }}"
 db_password: password
+db_password_readonly: password
 
 # Setting this to 1 will restart the Gunicorn process each time
 # you make a request, basically reloading the code. Very handy

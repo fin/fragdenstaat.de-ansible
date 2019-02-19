@@ -43,9 +43,9 @@ nginx_media_dir: "/var/www/fragdenstaat.de/storage"
 nginx_private_media_path: "/var/www/fragdenstaat.de/storage"
 
 htpasswd:
-  admin:
-    - name: user
-      password: password
+- name: user
+  password: password
+  realm: admin
 
 django_media_root: "/var/www/fragdenstaat.de/storage/files"
 django_static_root: "/var/www/fragdenstaat.de/public/static"
